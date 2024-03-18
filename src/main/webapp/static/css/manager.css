@@ -1,0 +1,160 @@
+/* Logo 字体 */
+@font-face {
+    font-family: "iconfont"; /* Project id 3379345 */
+    src: url('//at.alicdn.com/t/font_3379345_2ehtvyq7uzn.woff2?t=1651804670795') format('woff2'),
+    url('//at.alicdn.com/t/font_3379345_2ehtvyq7uzn.woff?t=1651804670795') format('woff'),
+    url('//at.alicdn.com/t/font_3379345_2ehtvyq7uzn.ttf?t=1651804670795') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-denglumima:before {
+    content: "\66";
+}
+
+.icon-denglu:before {
+    content: "\e612";
+}
+
+body {
+    background-color: rgba(238, 238, 238, 0.7);
+    /*background-repeat:no-repeat;*/
+    /*background-position:0% 0%;*/
+    /*background-size:cover;*/
+    /*text-align:center;*/
+    /*margin: 0;*/
+
+}
+
+
+table {
+    margin: auto;
+}
+
+.d2 { /*字体*/
+    color: white;
+    text-shadow: 0px 0px 20px #7ed4f3,
+    0px 0px 10px #31b6ef,
+    0px 0px 10px #41efe9,
+    0px 0px 10px #2fbbe5;
+    font-size: 68px;
+
+}
+
+
+.container {
+
+    vertical-align: middle;
+
+    display: table;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 400px;
+    height: 250px;
+}
+
+.ext-box {
+
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+
+
+}
+
+.in-box {
+    display: table-cell;
+    vertical-align: middle;
+
+    border-radius: 13px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 50px;
+    height: 50px;
+}
+
+input {
+
+    height: 60px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    position: relative;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-aglign: center;
+}
+.button1 {
+    width:120px;
+    background-color: #3cc4ae;
+}
+.button2 {
+    width:120px;
+    background-color: #ff7e66;
+}
+
+.button3 {
+    width:180px;
+    background-color: #7ab4fd;
+}
+
+.button4 {
+    width:60px;
+    background-color: #333333;
+}
+.button1 {
+    width:120px;
+    background-color: #f44e21;
+}
+.button2 {
+    width:120px;
+    background-color: #80b801;
+}
+
+.button3 {
+    width:180px;
+    background-color: #029cf0;
+}
+
+.button4 {
+    width:60px;
+    background-color: #feb702;
+}
+
+
+
+
+.input-user {
+
+
+    padding: 0 0 0 20px;
+    max-width: 50px;
+    max-height: 50px;
+
+
+    border: 1px solid #999999;
+    box-shadow: 1px 1px 3px #cccccc;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+tr {
+    text-align: center;
+}

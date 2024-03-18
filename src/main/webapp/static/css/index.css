@@ -1,0 +1,174 @@
+
+
+
+table {
+    margin: auto;
+}
+
+.d2 { /*字体*/
+    color: white;
+    text-shadow: 0px 0px 20px #7ed4f3,
+    0px 0px 10px #31b6ef,
+    0px 0px 10px #41efe9,
+    0px 0px 10px #2fbbe5;
+    font-size: 68px;
+
+}
+
+
+.container {
+
+    vertical-align: middle;
+
+    display: table;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.45);
+    border-radius: 13px;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 400px;
+    height: 250px;
+}
+
+.ext-box {
+
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+
+
+}
+
+.in-box {
+    display: table-cell;
+    vertical-align: middle;
+
+    border-radius: 13px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 50px;
+    height: 50px;
+}
+
+input {
+
+    height: 60px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    position: relative;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-aglign: center;
+}
+.button1 {
+    width:120px;
+    background-color: #3cc4ae;
+}
+.button2 {
+    width:120px;
+    background-color: #ff7e66;
+}
+
+.button3 {
+    width:180px;
+    background-color: #7ab4fd;
+}
+
+.button4 {
+    width:60px;
+    background-color: #333333;
+}
+
+
+.button3 {
+    width:180px;
+    background-color: #029cf0;
+}
+
+.button4 {
+    width:60px;
+    background-color: #feb702;
+}
+
+
+
+
+.input-user {
+
+
+    padding: 0 0 0 20px;
+    max-width: 50px;
+    max-height: 50px;
+
+
+    border: 1px solid #999999;
+    box-shadow: 1px 1px 3px #cccccc;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+tr {
+    text-align: center;
+}
+body{
+    background-image:url("sky.jpg");
+    background-repeat:no-repeat;
+    background-position:0% 0%;
+    background-size:cover;
+    text-align:center;
+    margin: 0;
+
+}
+
+
+table{margin:auto;}
+
+.d2{/*字体*/
+    color: white;
+    text-shadow:
+            0px 0px 20px #7ed4f3,
+            0px 0px 10px #31b6ef,
+            0px 0px 10px #41efe9,
+            0px 0px 10px #2fbbe5;
+    font-size: 42px;
+
+}
+
+
+
+
+.ext-box {
+    display: table;
+}
+.in-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    background-color: #43b6e8;
+    border: none;
+    border-radius:12px;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+
+}

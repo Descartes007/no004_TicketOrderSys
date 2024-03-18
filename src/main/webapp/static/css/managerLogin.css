@@ -1,0 +1,122 @@
+/* Logo 字体 */
+@font-face {
+    font-family: "iconfont"; /* Project id 3379345 */
+    src: url('//at.alicdn.com/t/font_3379345_2ehtvyq7uzn.woff2?t=1651804670795') format('woff2'),
+    url('//at.alicdn.com/t/font_3379345_2ehtvyq7uzn.woff?t=1651804670795') format('woff'),
+    url('//at.alicdn.com/t/font_3379345_2ehtvyq7uzn.ttf?t=1651804670795') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-denglumima:before {
+    content: "\66";
+}
+
+.icon-denglu:before {
+    content: "\e612";
+}
+body{
+    background-color: rgba(238,238,238,0.7);
+    /*background-repeat:no-repeat;*/
+    /*background-position:0% 0%;*/
+    /*background-size:cover;*/
+    /*text-align:center;*/
+    /*margin: 0;*/
+
+}
+
+
+table{margin:auto;}
+
+.d2{/*字体*/
+    color: white;
+    text-shadow:
+            0px 0px 20px #7ed4f3,
+            0px 0px 10px #31b6ef,
+            0px 0px 10px #41efe9,
+            0px 0px 10px #2fbbe5;
+    font-size: 68px;
+
+}
+
+
+
+.container {
+
+    vertical-align: middle;
+
+    display:table;
+    text-align: center;
+
+    border-radius: 13px;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 250px;
+    height: 250px;
+}
+.ext-box {
+
+    display:table-cell;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+
+    color:rgb(255, 255, 255);
+    border-radius: 13px;
+
+
+
+
+}
+.in-box{
+
+    display: table-cell;
+    vertical-align: middle;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 50px;
+    height: 50px;
+}
+
+.button1{
+    background-color: #3cc4ae;
+    width:90px;
+    height:30px;
+    color: #ffffff;
+    border-radius:10px;
+    border:0;
+    position: relative;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-aglign:center;
+}
+.button2{
+    background-color: #ff7e66;
+    width:90px;
+    height:30px;
+    color: #ffffff;
+    border-radius:10px;
+    border:0;
+    position: relative;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    text-aglign:center;
+}
+
+tr{
+    text-align:center;
+}

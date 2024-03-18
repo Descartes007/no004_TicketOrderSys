@@ -1,0 +1,44 @@
+spring:
+  datasource:
+    name: flysys
+    url: jdbc:mysql://localhost:3306/no004_flysys?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=GMT%2B8 #url
+    # 你的数据库账户和密码
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+      #关闭Spring Boot的默认配置 ，禁用MultipartResolverSpring提供的默认值
+      multipart:
+        enabled: false
+  #配置视图解析器
+  mvc:
+    view:
+      #前缀
+      prefix: /WEB-INF/jsp/
+      #后缀
+      suffix: .jsp
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+      exclude: WEB-INF/**
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.tos.pojo
+  #开启驼峰命名转换
+  configuration:
+    map-underscore-to-camel-case: true
+
+#配置文件
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+#分页
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tos.mapper.PassengerMapper">
+    <select id="getPassenger" resultType="Passenger">
+        select * from passenger where phone = #{passengerPhone}
+    </select>
+
+    <select id="getPassengers" resultType="Passenger">
+        select * from passenger
+    </select>
+
+    <delete id="deletePassenger">
+        delete from passenger where phone = #{passengerPhone}
+    </delete>
+
+    <select id="getPassengerById" resultType="Passenger">
+        select * from passenger where passenger_id = #{passengerId}
+    </select>
+
+<!--    <insert id="register" parameterType="map">-->
+<!--        insert into passenger values (#{},#{passengerName},#{phone},#{password},#{avatar_img})-->
+<!--    </insert>-->
+
+    <update id="updateImg" parameterType="map">
+        update passenger
+        set avatar_img = #{avatarImg}
+        where phone = #{phone}
+    </update>
+
+    <update id="updateInfo" parameterType="map">
+        update passenger
+        set card_id = #{cardId}, passenger_name = #{passengerName}, phone = #{phone}, nick_name = #{nickName}, city = #{city}, email = #{email}, wechat = #{wechat}
+        where passenger_id = #{passengerId}
+    </update>
+
+    <insert id="register" parameterType="com.tos.pojo.Passenger">
+        insert into passenger(card_id,passenger_name,phone,password) values (#{passenger.cardId},#{passenger.passengerName},#{passenger.phone},#{passenger.password})
+    </insert>
+</mapper>

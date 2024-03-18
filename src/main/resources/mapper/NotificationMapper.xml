@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tos.mapper.NotificationMapper">
+    <select id="getNotes" resultType="com.tos.pojo.Notification">
+        select * from notification where phone = #{phone}
+    </select>
+
+    <delete id="deleteNote">
+        delete from notification where note_id = #{noteId}
+    </delete>
+</mapper>

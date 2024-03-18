@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 3379345 */
+    src: url('//at.alicdn.com/t/font_3379345_1dalho34oi8.woff2?t=1651825873713') format('woff2'),
+    url('//at.alicdn.com/t/font_3379345_1dalho34oi8.woff?t=1651825873713') format('woff'),
+    url('//at.alicdn.com/t/font_3379345_1dalho34oi8.ttf?t=1651825873713') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-xiangyou:before {
+    content: "\e600";
+}
+
+.icon-jiantou_zuoyouqiehuan_o:before {
+    content: "\eb95";
+}
+
+.icon-denglumima:before {
+    content: "\66";
+}
+
+.icon-denglu:before {
+    content: "\e612";
+}
+
+
+body {
+    background-color: rgba(238, 238, 238, 0.7);
+    text-align: center;
+}
+.container {
+    vertical-align: middle;
+    display: table;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 620px;
+    height: 50px;
+    font-size:16px;
+}
+.in-box {
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 13px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 80px;
+    width: 50px;
+    height: 30px;
+}
+
+
+
+table {
+    margin: auto;
+    width:620px;!important;
+    table-layout:fixed;!important;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+table tr:first-child td:first-child {
+    border-top-left-radius: 12px;
+}
+
+table tr:first-child td:last-child {
+    border-top-right-radius: 12px;
+}
+
+
+/* Border styles */
+#table-1 thead, #table-1 tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #a8bfde;
+}
+
+#table-1 {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #a8bfde;
+}
+
+/* Padding and font style */
+#table-1 td, #table-1 th {
+    padding: 5px 10px;
+    font-size: 12px;
+    font-family: Verdana;
+    color: #5b7da3;
+}
+
+/* Alternating background colors */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table-1 {
+    margin: 50px auto;
+    border-spacing: 0;
+}
+
+#table-1 tr:nth-child(even) {
+    background: #a8bfda
+}
+
+#table-1 tr:nth-child(odd) {
+    background: #eeeeee
+}
+
+#table-1 tr:first-child td:first-child {
+    border-top-left-radius: 10px; /* 设置table左下圆角 */
+}
+
+#table-1 tr:first-child td:last-child {
+    border-top-right-radius: 10px; /* 设置table右下圆角 */
+}
+
+#table-1 tr:last-child td:first-child {
+    border-bottom-left-radius: 10px; /* 设置table左下圆角 */
+}
+
+#table-1 tr:last-child td:last-child {
+    border-bottom-right-radius: 10px; /* 设置table右下圆角 */
+}
+
+#table-1 tr:first-child td {
+    border-bottom: none;
+}
+
+#table-1 tr:last-child td {
+    border-top: none;
+}
+
+#table-1 tr td:nth-child(2) {
+    border-right: none;
+    border-left: none;
+}
+button{
+    background-color:rgb(78,110,242);
+    color: rgb(255, 255, 255);
+    border:0;
+    border-radius:5px;
+    width:60px;
+    height: 22px;
+    font-size: 8px;
+
+}
+
+select.m-wrap {
+
+    background-color: #ffffff;
+    background-image: none !important;
+    filter: none !important;
+    border: 1px solid #e5e5e5;
+    outline: none;
+    height: 25px !important;
+    line-height: 25px;
+    width:80px !important;
+    font-weight:bold;
+}
+.button1 {
+    width:150px;
+    background-color: #f44e21;
+}
+.button2 {
+    width:150px;
+    background-color: #80b801;
+}
+
+.button3 {
+    width:150px;
+    background-color: #029cf0;
+}
+
+.button4 {
+    width:150px;
+    background-color: #feb702;
+}
+td{
+    width:120px;
+    text-align:center;
+}
+input {
+    position: relative;
+    width: 120px;
+    height: 25px;
+    font-size: 10px;
+    background-color: rgba(84, 82, 161, 0);
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: inset 0 1px #fff, 0 1px #eee;
+}
+
+/* 控制编辑区域 */
+input[type="date"]::-webkit-datetime-edit {
+    background-color: rgb(255, 255, 255);
+    color: rgb(188, 188, 188);
+    padding: 0 8px;
+}
+
+/* 控制年月日区域 */
+input[type="date"]::-webkit-datetime-edit-fields-wrapper {
+    background-color: rgb(255, 255, 255);
+}
+
+/* 年月日之间斜线 */
+input[type="date"]::-webkit-datetime-edit-text {
+    color: rgba(6, 140, 252, 0.23);
+    padding: .3em;
+}
+
+/* 年字 */
+input[type="date"]::-webkit-datetime-edit-year-field {
+    color: #959fac;
+}
+
+/* 月字 */
+input[type="date"]::-webkit-datetime-edit-month-field {
+    color: blank;
+}
+
+/* 日字 */
+input[type="date"]::-webkit-datetime-edit-day-field {
+    color: #a8bfda;
+}
+
+/* 右侧图标 */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translate(50%, -50%);
+    width: 20px;
+    height: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    box-shadow: inset 0 1px #fff, 0 1px #eee;
+    background-color: #eee;
+    background: url('https://scpic.chinaz.net/Files/pic/icons128/5894/c2.png') no-repeat center center;
+    background-size: 100% 100%;
+    color: #666;
+}
+
+/* 去掉date中上下小三角，但是保留input类型为number的小三角 */
+input[type=date]::-webkit-inner-spin-button {
+    visibility: hidden;
+}
+
+/* 用来移除叉叉按钮 鼠标移上去还会显示 */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
